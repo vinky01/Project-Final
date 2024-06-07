@@ -1,0 +1,255 @@
+/*Bagian Header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #4CAF50 0%, #67A856 50%, #8fbf5d 100%);
+  color: #C3C3C3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+header h1 {
+  height: 0px;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  padding-top: 5px;
+  padding-left: 40px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+  margin: 30px;
+  padding: 0;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  background-color: #F5F5F5;
+  color: #333333;
+  text-decoration: underline overline;
+  border-radius: 100px;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 100px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Arial', cursive, sans-serif;
+}
+
+
+
+
+/*Bagian Resep Makanan*/
+.card-container {
+  display: flex;
+  grid-gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px auto;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 10px;
+  width: 300px;
+  overflow: hidden;
+  flex-basis: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30%;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 1);
+}
+
+.card h2 {
+  color: #000000;
+  font-size: 24px;
+  margin: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.card p {
+  color: #666666;
+  font-size: 16px;
+  margin: 10px;
+  line-height: 1.4;
+}
+
+.card ul li{
+  padding-right: 10%;
+}
+
+.clear { clear: both;}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.instructions {
+  display: none;
+  background-color: #F5F5F5;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.instructions h3 {
+  color: #333333;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.instructions p {
+  color: #666666;
+  font-size: 16px;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+
+
+
+/*Bagian About us*/
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.member {
+  text-align: center;
+  width: 250px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.member img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.member h3 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.member p {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+
+
+/*Bagian search*/
+.search-form {
+display: flex;
+justify-content: center;
+margin-top: 30px;
+margin: 20px;
+padding: 0;
+margin-right: 10px;
+}
+
+.search-input {
+padding: 5px;
+width: 200px;
+}
+
+.search-button {
+padding: 5px 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.search-results {
+margin-top: 20px;
+}
+
+.search-button:hover {
+  background-color: #3e8e41;
+}
+
+
+
+.resep-button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+  margin: 20px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.resep-button:hover {
+  background-color: #F5F5F5;
+  color: #333333;
+  text-decoration: underline overline;
+  border-radius: 100px;
+}
